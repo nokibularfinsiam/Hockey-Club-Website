@@ -35,7 +35,7 @@
 </head>
 <body class="xl: max-w-[1520px] m-auto">
 
-    <header class="lg:ml-28 lg:mr-28 sm:ml-10 sm:mr-10">
+    <header class="lg:ml-28 lg:mr-28 m-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -67,7 +67,7 @@
           </div>
     </header>
 
-    <main class="xl:ml-28 xl:mr-28 ml-10 mr-10">
+    <main class="lg:ml-28 lg:mr-28 m-auto">
 
         <section class="page-1 xl:pt-14 pt-10">
             <div class="carousel h-[550px]">
@@ -461,33 +461,45 @@
         </section>
     </main>
     
-    <footer class="footer p-10 bg-base-200 text-base-content bg-[#131318] text-[#FFFFFF99] mt-9">
-        <aside>
-          <h1 class="text-[#FFFFFF] text-[28px] font-extrabold">Get In Touch</h1>
+    <footer class="footer p-10 bg-base-200 text-base-content bg-[#131318] text-[#FFFFFF99] m-auto lg:mt-9">
+        <aside class="m-auto text-center lg:text-left">
+          <h1 class="text-[#FFFFFF] text-[28px] font-extrabold m-auto lg:m-0">Get In Touch</h1>
           <p>Connect with us easily! Get In Touch for personalized support, <br> inquiries, or just to say hello. We're here, <br> ready to assist and make your experience exceptional.</p>
-          <i class="fa-regular fa-envelope" style="color: #ff4240; font-size: 16px;"> <span class="text-white font-manrope capitalize">hockeys@support.com</span></i>
-          <i class="fa-solid fa-phone" style="color: #ff4240; font-size: 16px;">  <span class="text-white">(+62) 123-321-543</span></i>
+          <div class="flex m-auto lg:m-0">
+            <i class="fa-regular fa-envelope" style="color: #ff4240; font-size: 16px;"></i>
+            <p class="text-white ml-2">hockeys@support.com</p>
+          </div>
+          <div class="flex m-auto lg:m-0">
+            <i class="fa-solid fa-phone" style="color: #ff4240; font-size: 16px;"></i>
+            <p class="text-white ml-2">(+62) 123-321-543</p>
+          </div>
         </aside> 
-        <nav>
-          <header class="footer-title text-[#FFFFFF] text-[18px] font-bold">Company</header> 
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
-        </nav> 
-        <nav>
-          <header class="footer-title text-[#FFFFFF] text-[18px] font-bold">Support</header> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
-        </nav> 
-        <nav>
-          <header class="footer-title text-[#FFFFFF] text-[18px] font-bold">Services</header> 
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
-        </nav>
+        <div class="flex gap-[170px] text-center m-auto leading-7">
+          <nav>
+            <header class="footer-title text-[#FFFFFF] text-[18px] font-bold">Company</header> 
+            <a class="link link-hover">About us</a><br>
+            <a class="link link-hover">Leadership</a><br>
+            <a class="link link-hover">Careers</a><br>
+            <a class="link link-hover">News & Article</a><br>
+            <a class="link link-hover">Legal Notice</a><br>
+          </nav> 
+          <nav>
+            <header class="footer-title text-[#FFFFFF] text-[18px] font-bold">Support</header> 
+            <a class="link link-hover">Help Center</a><br>
+            <a class="link link-hover">FAQ</a><br>
+            <a class="link link-hover">Ticket Support</a><br>
+            <a class="link link-hover">Contact Us</a><br>
+          </nav>
+        </div>
+        <div class="text-center m-auto leading-7"> 
+          <nav>
+            <header class="footer-title text-[#FFFFFF] text-[18px] font-bold">Services</header> 
+            <a class="link link-hover">Academy</a><br>
+            <a class="link link-hover">Group Lesson</a><br>
+            <a class="link link-hover">Hockeys for kids</a><br>
+            <a class="link link-hover">Hockeys for Adult</a><br>
+          </nav>
+        </div>
     </footer>
 
 </body>
